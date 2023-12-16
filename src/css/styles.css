@@ -16,7 +16,7 @@
 
 @import './utilities/center.css';
 @import './utilities/flow.css';
-@import './utilities/flow.css';
+@import './utilities/inherit.css';
 @import './utilities/region.css';
 @import './utilities/stack.css';
 @import './utilities/wrapper.css';

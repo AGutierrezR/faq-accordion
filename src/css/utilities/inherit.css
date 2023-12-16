@@ -1,0 +1,10 @@
+/*
+INHERIT
+This class allows you to inherit all the styles of a parent element.
+
+Specificity is 0 using :where
+*/
+
+:where(.inherit) {
+  all: inherit
+}
