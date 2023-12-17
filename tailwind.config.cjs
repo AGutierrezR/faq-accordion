@@ -71,6 +71,9 @@ module.exports = {
         ':root': postcssJs.objectify(postcss.parse(result)),
       })
     }),
+    plugin(function({ addVariant }) {
+      addVariant('owl', '& > * + *')
+    })
   ],
 }
 
