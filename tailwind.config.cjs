@@ -73,6 +73,15 @@ module.exports = {
     }),
     plugin(function({ addVariant }) {
       addVariant('owl', '& > * + *')
+    }),
+    plugin(function({ addUtilities, config }) {
+      addUtilities({
+        '.star': {
+          '--size': 'clamp(1.5rem, 1.1522rem + 1.7391vw, 2.5rem)',
+          'height': 'var(--size)',
+          'width': 'var(--size)'
+        }
+      })
     })
   ],
 }
