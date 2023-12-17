@@ -22,3 +22,7 @@ Can be any acceptable flexbox alignment value.
 .repel[data-nowrap] {
   flex-wrap: nowrap;
 }
+
+.repel[data-half] {
+  gap: calc(var(--gutter) / 2);
+}
