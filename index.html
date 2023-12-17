@@ -23,7 +23,13 @@
         <div class="mt-1 owl:border-t owl:border-t-light-pink">
           <div class="details" x-data="{ open: true }" x-id="['accordion']">
             <h2 class="text-dark-purple hover:text-light-purple">
-              <button @click="open = !open" :aria-expanded="open" :aria-controls="$id('accordion')" class="inherit repel w-full py-5 lg:py-6" data-nowrap>
+              <button 
+                @click="open = !open" 
+                :aria-expanded="open" 
+                :aria-controls="$id('accordion')"
+                class="inherit repel w-full py-5 lg:py-6" 
+                data-nowrap
+              >
                 <span>What is Frontend Mentor, and how will it help me?</span>
                 <svg aria-hidden="true" class="w-8 h-8 shrink-0">
                   <use x-show="open" xlink:href="#:minus" />
@@ -31,8 +37,12 @@
                 </svg>
               </button>
             </h2>
-            <div :id="$id('accordion')" class="grid transition-[grid-template-rows] text-grayish-purple"
-              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" :aria-hidden="!open">
+            <div 
+              :id="$id('accordion')" 
+              class="grid transition-[grid-template-rows] text-grayish-purple"
+              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+              :aria-hidden="!open"
+            >
               <div class="item overflow-hidden">
                 <p class="pt-1 pb-5 lg:pt-0 lg:pb-6">
                   Frontend Mentor offers realistic coding challenges to help developers improve their
@@ -45,7 +55,13 @@
 
           <div class="details" x-data="{ open: false }" x-id="['accordion']">
             <h2 class="text-dark-purple hover:text-light-purple">
-              <button @click="open = !open" :aria-expanded="open" :aria-controls="$id('accordion')" class="inherit repel w-full py-5 lg:py-6" data-nowrap>
+              <button 
+                @click="open = !open" 
+                :aria-expanded="open" 
+                :aria-controls="$id('accordion')"
+                class="inherit repel w-full py-5 lg:py-6" 
+                data-nowrap
+              >
                 <span>Is Frontend Mentor free?</span>
                 <svg aria-hidden="true" class="w-8 h-8 shrink-0">
                   <use x-show="open" xlink:href="#:minus" />
@@ -53,8 +69,12 @@
                 </svg>
               </button>
             </h2>
-            <div :id="$id('accordion')" class="grid transition-[grid-template-rows] text-grayish-purple"
-              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" :aria-hidden="!open">
+            <div 
+              :id="$id('accordion')" 
+              class="grid transition-[grid-template-rows] text-grayish-purple"
+              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+              :aria-hidden="!open"
+            >
               <div class="overflow-hidden">
                 <p class="pt-1 pb-5 lg:pt-0 lg:pb-6">
                   Yes, Frontend Mentor offers both free and premium coding challenges, with the free
@@ -66,7 +86,13 @@
 
           <div class="details" x-data="{ open: false }" x-id="['accordion']">
             <h2 class="text-dark-purple hover:text-light-purple">
-              <button @click="open = !open" :aria-expanded="open" :aria-controls="$id('accordion')" class="inherit repel w-full py-5 lg:py-6" data-nowrap>
+              <button 
+                @click="open = !open" 
+                :aria-expanded="open" 
+                :aria-controls="$id('accordion')"
+                class="inherit repel w-full py-5 lg:py-6" 
+                data-nowrap
+              >
                 <span>Can I use Frontend Mentor projects in my portfolio?</span>
                 <svg aria-hidden="true" class="w-8 h-8 shrink-0">
                   <use x-show="open" xlink:href="#:minus" />
@@ -74,8 +100,12 @@
                 </svg>
               </button>
             </h2>
-            <div :id="$id('accordion')" class="grid transition-[grid-template-rows] text-grayish-purple"
-              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" :aria-hidden="!open">
+            <div 
+              :id="$id('accordion')" 
+              class="grid transition-[grid-template-rows] text-grayish-purple"
+              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+              :aria-hidden="!open"
+            >
               <div class="item overflow-hidden">
                 <p class="pt-1 pb-5 lg:pt-0 lg:pb-6">
                   Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
@@ -87,7 +117,13 @@
 
           <div class="details" x-data="{ open: false }" x-id="['accordion']">
             <h2 class="text-dark-purple hover:text-light-purple">
-              <button @click="open = !open" :aria-expanded="open" :aria-controls="$id('accordion')" class="inherit repel w-full py-5 lg:py-6" data-nowrap>
+              <button 
+                @click="open = !open" 
+                :aria-expanded="open" 
+                :aria-controls="$id('accordion')"
+                class="inherit repel w-full py-5 lg:py-6" 
+                data-nowrap
+              >
                 <span>How can I get help if I'm stuck on a challenge?</span>
                 <svg aria-hidden="true" class="w-8 h-8 shrink-0">
                   <use x-show="open" xlink:href="#:minus" />
@@ -95,8 +131,12 @@
                 </svg>
               </button>
             </h2>
-            <div :id="$id('accordion')" class="grid transition-[grid-template-rows] text-grayish-purple"
-              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'" :aria-hidden="!open">
+            <div 
+              :id="$id('accordion')" 
+              class="grid transition-[grid-template-rows] text-grayish-purple"
+              :class="open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'"
+              :aria-hidden="!open"
+            >
               <div class="item overflow-hidden">
                 <p class="pt-1 pb-5 lg:pt-0 lg:pb-6">
                   The best place to get help is inside Frontend Mentor's Discord community. There's a help
