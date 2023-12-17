@@ -21,6 +21,10 @@
     {
       "name": "Dark purple",
       "value": "hsl(292, 42%, 14%)"
+    },
+    {
+      "name": "Light purple",
+      "value": "hsl(280, 84%, 54%)"
     }
   ]
 }
