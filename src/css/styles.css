@@ -8,6 +8,8 @@
 @import './global/variables.css';
 @import './global/global-styles.css';
 
+@import './blocks/pattern.css';
+
 @import './compositions/cluster.css';
 @import './compositions/cover.css';
 @import './compositions/grid.css';

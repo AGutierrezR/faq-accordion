@@ -66,22 +66,3 @@ blockquote,
 figcaption {
   max-width: 65ch;
 }
-
-/* Background pattern */
-body:before {
-  content: "";
-  position: fixed;
-  width: 100vw;
-  height: 14rem;
-  max-height: 50vh;
-  background: url('/assets/images/background-pattern-mobile.svg') no-repeat top/cover;
-  z-index: -1;
-  top: 0;
-}
-
-@media screen(sm) {
-  body:before {
-    height: 20rem;
-    background: url('/assets/images/background-pattern-desktop.svg') no-repeat top/cover;
-  }
-}
