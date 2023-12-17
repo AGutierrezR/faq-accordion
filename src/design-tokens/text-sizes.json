@@ -30,12 +30,12 @@
     {
       "name": "Step 2",
       "min": 16,
-      "max": 35
+      "max": 18
     },
     {
       "name": "Step 3",
       "min": 32,
-      "max": 46
+      "max": 56
     },
     {
       "name": "Step 4",
